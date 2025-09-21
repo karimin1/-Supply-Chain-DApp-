@@ -1,4 +1,5 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+export default {
+  experimental: {
+    turbo: {}, // ✅ empty object works
+  },
+};
